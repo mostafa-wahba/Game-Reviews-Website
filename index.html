@@ -1,0 +1,96 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>assignment12</title>
+</head>
+
+<body>
+    <section id="games" class="d-block">
+        <header>
+            <img src="img/wraper.png" class="w-100" alt="game photo">
+        </header>
+        <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9 mx-auto rounded-4">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="img/logo-sm.png" alt="Logo" class="d-inline-block align-text-top me-2">
+                    GAME REVIEWS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase active" aria-current="page" href="#">mmorpg</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">shooter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">sailing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">permadeath</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">superhero</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">pixel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container my-5 home">
+            <section class="position-relative">
+                <div id="pagedata" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                </div>
+            </section>
+        </main>
+    </section>
+    <section id="details" class="d-none">
+        <div class="container">
+            <header class="hstack justify-content-between">
+                <h1 class="text-center h3 py-4">Game Info</h1>
+                <button id="closeBtn" class="btn-close btn-close-white"></button>
+            </header>
+            <div class="row g-4" id="detailsContent">
+                <div class="col-md-4">
+                    <img id="imgDetails" src="" alt="image details" class="w-100">
+                </div>
+                <div class="col-md-8">
+                    <h3></h3>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p class="small"></p>
+                    <a class="btn btn-outline-warning" target="_blank"
+                        href="">Show
+                        Game</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="loading">
+        <span class="loader"></span>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
